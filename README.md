@@ -17,7 +17,7 @@
 
  ### 2.2 安装教程  
   1. 安装Anaconda3  
-  2. 创建虚拟环境[detectron2.yml]()  
+  2. 创建虚拟环境[detectron2.yml](https://github.com/lkmy/ODGuide/blob/master/detectron2.yml)  
   ```  
     conda env create -f detectron2.yml 
   ```  
