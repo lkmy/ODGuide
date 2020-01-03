@@ -53,5 +53,6 @@
   [Cacade R-CNN]()  
   [TrientNet]()
 ## 5 框架资料  
-[documentation](https://detectron2.readthedocs.io/tutorials/extend.html)
-[使用展示](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5)
+[documentation](https://detectron2.readthedocs.io/tutorials/extend.html)  
+[使用展示](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5)  
+[代码结构解析](https://www.zhihu.com/search?type=content&q=detectron2%E4%BB%A3%E7%A0%81%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0)
