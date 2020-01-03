@@ -37,7 +37,7 @@
     cd detectron2  
     pyd setup.py build develop  
   ```  
-   5 测试  
+  5 测试  
    ```  
     pyd
     import detectron2
@@ -64,14 +64,14 @@
 
 detectron2硬编码了数据集读取位置，所以运行train/test等需要载入数据集的操作，必须运行在detectron2根目录下  
 ### &nbsp;&nbsp;自定义数据集  
-detectron2采用注册机制 train/test前都要进行数据集的注册操作。 
-注册自定义数据集方法  
+detectron2采用注册机制 train/test前都要进行数据集的注册操作。  
+注册自定义数据集方法 ：
 1. 官方例子-见6 框架资料->使用展示
 2. 官方API—见6 框架资料->帮助文档->Use Custom Datasets
 3. [其他例子](https://zhuanlan.zhihu.com/p/89877517)  
 
 ## 5 部分模型使用演示 
-[Cacade R-CNN]()
+[Cacade R-CNN]()  
 [Tridentnet]()
 
 ## 6 框架资料  
