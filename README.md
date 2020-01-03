@@ -49,6 +49,9 @@
   注：MODEL.WEIGHTS 可以是存放自己已训练好的， 与config-file对应的模型参数的地址，  
       如 /home/share/xxx/detectron2/output/model_final.pth  
       也可以是[model zool](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md)里训练好的模型
-## 4 部分检测模型与用法详
+## 4 部分检测模型与用法详解
   [Cacade R-CNN]()  
   [TrientNet]()
+## 5 框架资料  
+[documentation](https://detectron2.readthedocs.io/tutorials/extend.html)
+[使用展示](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5)
