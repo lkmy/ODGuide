@@ -36,7 +36,12 @@
     git clone https://github.com/facebookresearch/detectron2.git  
     cd detectron2  
     pyd setup.py build develop  
-  ```
+  ```  
+   5 测试  
+   ```  
+    pyd
+    import detectron2
+   ```
 
 ## 3 使用测试  
 进入detectron2安装根目录
@@ -48,11 +53,28 @@
   ```
   注：MODEL.WEIGHTS 可以是存放自己已训练好的， 与config-file对应的模型参数的地址，  
       如 /home/share/xxx/detectron2/output/model_final.pth  
-      也可以是[model zool](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md)里训练好的模型
-## 4 部分检测模型与用法详解
-  [Cacade R-CNN]()  
-  [TrientNet]()
-## 5 框架资料  
-[documentation](https://detectron2.readthedocs.io/tutorials/extend.html)  
+      也可以是[model zool](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md)里训练好的模型  
+    
+## 4 数据集  
+### &nbsp;&nbsp;COCO  
+&emsp;{detectron2根目录}/coco/  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;val2017  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;train2017  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;annotations   
+
+detectron2硬编码了数据集读取位置，所以运行train/test等需要载入数据集的操作，必须运行在detectron2根目录下  
+### &nbsp;&nbsp;自定义数据集  
+detectron2采用注册机制 train/test前都要进行数据集的注册操作。 
+注册自定义数据集方法  
+1. 官方例子-见6 框架资料->使用展示
+2. 官方API—见6 框架资料->帮助文档->Use Custom Datasets
+3. [其他例子](https://zhuanlan.zhihu.com/p/89877517)  
+
+## 5 部分模型使用演示 
+[Cacade R-CNN]()
+[Tridentnet]()
+
+## 6 框架资料  
+[帮助文档](https://detectron2.readthedocs.io/tutorials/extend.html)  
 [使用展示](https://github.com/lkmy/ODGuide/blob/master/example.pdf)  
 [代码结构解析](https://www.zhihu.com/search?type=content&q=detectron2%E4%BB%A3%E7%A0%81%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0)
