@@ -70,9 +70,13 @@ detectron2采用注册机制 train/test前都要进行数据集的注册操作�
 2. 官方API—见6 框架资料->帮助文档->Use Custom Datasets
 3. [其他例子](https://zhuanlan.zhihu.com/p/89877517)  
 
-## 5 部分模型使用演示 
-[Cacade R-CNN](https://github.com/lkmy/ODGuide/blob/master/Caccade%20R-CNN.md)  
-[Tridentnet]()
+## 5 部分检测模型  
+### Cacade R-CNN  
+### TridentNet   
+
+
+[模型训练与测试教程](https://github.com/lkmy/ODGuide/blob/master/%E8%AE%AD%E7%BB%83%E4%B8%8E%E6%B5%8B%E8%AF%95%E6%95%99%E7%A8%8B.md)  
+
 
 ## 6 框架资料  
 [帮助文档](https://detectron2.readthedocs.io/tutorials/extend.html)  
