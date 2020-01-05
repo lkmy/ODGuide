@@ -91,7 +91,7 @@ time consuming： 2 days 1h
 | 36.486 | 56.164 | 38.808 | 17.666 | 40.602 | 53.290 |  
 
 inference time: 0.261437 s / img per device, on 1 devices  
-iter： 269979 
+iter： 269979  
 time consuming 5 days  
 
 #### tridentnet_fast_R_50_C4_1x.yaml  
