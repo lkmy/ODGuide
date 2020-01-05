@@ -72,7 +72,7 @@ detectron2采用注册机制 train/test前都要进行数据集的注册操作�
 
 ## 5 部分检测模型  
 ### Cacade R-CNN  
-cascade_mask_rcnn_R_50_FPN_3x.yaml  
+#### cascade_mask_rcnn_R_50_FPN_3x.yaml  
 
 |   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 |:------:|:------:|:------:|:------:|:------:|:------:|
@@ -83,8 +83,18 @@ iter 269999
 time consuming： 2 days 1h
 
 
-### TridentNet  
-tridentnet_fast_R_50_C4_1x.yaml  
+### TridentNet   
+ #### tridentnet_fast_R_101_C4_3x.yaml 
+ 
+ |   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 36.486 | 56.164 | 38.808 | 17.666 | 40.602 | 53.290 |  
+
+inference time: 0.261437 s / img per device, on 1 devices  
+iter： 269979 
+time consuming 5 days  
+
+#### tridentnet_fast_R_50_C4_1x.yaml  
 
 |   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 |:------:|:------:|:------:|:------:|:------:|:------:|
