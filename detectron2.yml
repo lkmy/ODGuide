@@ -99,4 +99,3 @@ dependencies:
     - werkzeug==0.16.0
     - yacs==0.1.6
 prefix: /home/yujialin/anaconda3/envs/detectron2
-a
