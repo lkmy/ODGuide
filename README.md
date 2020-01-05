@@ -39,6 +39,7 @@
   ```  
   5. 测试  
    ```  
+    # conda activate detectron2
     pyd
     import detectron2
    ```
