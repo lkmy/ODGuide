@@ -37,7 +37,7 @@
     cd detectron2  
     pyd setup.py build develop  
   ```  
-  5 测试  
+  5. 测试  
    ```  
     pyd
     import detectron2
@@ -57,7 +57,7 @@
     
 ## 4 数据集  
 ### &nbsp;&nbsp;COCO  
-&emsp;{detectron2根目录}/coco/  
+&emsp;{detectron2根目录}/datasets/coco/  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;val2017  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;train2017  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;annotations   
